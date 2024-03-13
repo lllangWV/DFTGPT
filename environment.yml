@@ -1,0 +1,15 @@
+name: ai_agent
+channels:
+- defaults
+
+dependencies:
+- python==3.9.*
+- pip
+
+- pip:
+  - llama-index
+  - pypdf
+  - python-dotenv
+  - pandas
+  - numpy
+  - matplotlib
